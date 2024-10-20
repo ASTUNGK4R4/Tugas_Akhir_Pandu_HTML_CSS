@@ -1,0 +1,138 @@
+#header{
+    width : 1200px;
+    height : 100%;
+    border :1px rgb(255, 255, 255);
+    color: #5c626b;
+    background-color: #bfc3c6ed;
+}
+
+#konten1{
+    
+    border :1px rgb(255, 255, 255);
+    color: #5c626b;
+    font-size: 12pt;
+    margin: 15px;
+    text-align: justify;
+    text-indent: 50px;
+}
+
+#konten2{
+    border :1px rgb(255, 255, 255);
+    color: #5c626b;
+    font-size: 12pt;
+    margin: 15px;
+    text-align: justify;
+    text-indent: 50px;
+}
+
+#judul{
+    font-size: 35pt;
+    padding-top: 15px;
+}
+
+.gam1{
+    filter:contrast(1);
+}
+
+.gam1:hover{
+    filter:contrast(0.6);
+}
+
+figure1{
+    display: inline-block;
+    padding: 10px;
+}
+
+.art2{
+    padding-right: 80px;
+}
+
+.kiri{
+    width: 50%;
+    margin-top: 50px;
+}
+
+.kanan{
+    width: 50%;
+    margin-top: 250px;
+    padding-right: 100px;
+}
+
+.bg10{
+    background: #9BA4B4;
+}
+
+.pjlsn{
+    text-align: justify;
+}
+
+a.tbl-pel{
+    background: #14274E;
+    border-radius: 20px;
+    margin-top: 20px;
+    padding: 15px 20px 15px 20px;
+    color: #f1f6f9;
+    cursor: pointer;
+}
+
+a.tbl-pel:hover{
+    background: #9BA4B4;
+    text-decoration: none;
+}
+
+
+
+nav1 {
+    width: 100%;
+    margin: auto;
+    display: flex;
+    line-height: 80px;
+    position: sticky;
+    position: -webkit-sticky;
+    top: 0;
+    z-index: 1;
+    padding-left: 40%;
+    margin-top: 35px;
+}
+
+nav1 ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+}
+
+nav1 ul li {
+    float: left;
+}
+
+nav1 ul li a {
+    color: #F1F6F9;
+    font-weight: bold;
+    text-align: center;
+    padding: 0px 16px 0px 16px;
+    text-decoration: none;
+}
+
+.footer-col .social-links a i{
+    display: inline-block;
+    height: 40px;
+    width: 40px;
+    background-color: rgba(255, 255, 255, 0.2);
+    margin: 0 10px 10px 0;
+    text-align: center;
+    line-height: 40px;
+    border-radius: 50%;
+    color: #FFFFFF;
+    transition: all 0.5s ease;
+  }
+  
+  .footer-col .social-links a i:hover{
+    color: #24262b;
+    background-color: #FFFFFF;
+  }
+  
+  .social-links i{
+    color: #FFFFFF;
+  }
+

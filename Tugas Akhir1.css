@@ -1,0 +1,293 @@
+.organigram{
+    margin:0px;
+    padding: 0px;
+    font-family: sans-serif;
+    display: flex;
+    justify-content: center;
+    height: 100vh;
+    align-items: center;
+    background: whitesmoke;
+}
+
+.gbrogr{
+    height: 500px;
+    
+    width: 350px;
+    border-radius: 3px;
+}
+
+.intro{
+    height: 70px;
+    width: 350px;
+    padding: 6px;
+    box-sizing: border-box;
+    position: absolute;
+    bottom: -1492px;
+    background: #f1f6f98f;
+    color: #5c626b;
+    transition: .5s;
+}
+
+.judul10{
+    margin: 10px;
+    font-size: 40px;
+}
+
+.pjlsjdl10{
+    font-size: 20px;
+    margin: 20px;
+    visibility: hidden;
+    opacity: 0;
+}
+
+.pnkn10{
+    font-weight: bold;
+}
+
+.card10:hover{
+    cursor: pointer;
+}
+
+.card10:hover .intro{
+    height: 220px;
+    bottom: -1492px;
+    background: #14274E;
+}
+
+.card10:hover .pjlsjdl10{
+    opacity: 1;
+    visibility: visible;
+}
+
+.card10:hover .gbrogr{
+    transform: scale(1.1) rotate(-3deg);
+}
+
+.card10{
+    height: 500px;
+    margin: 50px;
+    box-shadow: 8px, 8px, 23px black;
+    overflow: hidden;
+}
+
+.container2{
+    display: flex;
+    background-color: #9ba4b4b0;
+}
+
+.important{
+    padding-bottom: 15px;
+    margin: 15px;
+    width: 100%;
+    height: 20px;
+}
+
+.gam2{
+    filter:contrast(1);
+}
+
+.gam2:hover{
+    filter:contrast(0.6);
+}
+
+
+footer {
+    background-color: #14274E;
+    padding: 50px 0;
+}
+  
+.container10 {
+    max-width: 1200px;
+    margin: 0 auto;
+}
+  
+.row {
+    display: flex;
+    flex-wrap: wrap;
+}
+  
+.col-md-3 {
+    flex: 0 0 33.33%;
+    padding: 0 15px;
+  }
+  
+  h3 {
+    font-size: 20px;
+    margin-bottom: 20px;
+  }
+  
+  ul {
+    list-style: none;
+    padding: 0;
+  }
+  
+  li {
+    margin-bottom: 10px;
+  }
+  
+  a {
+    text-decoration: none;
+    color: #f1f6f9;
+  }
+  
+  a:hover{
+    color: #5c626b;
+  }
+  .social-icons li {
+    display: inline-block;
+    margin-right: 10px;
+  }
+  
+  .social-icons i {
+    font-size: 24px;
+  }
+  
+  .copyright {
+    text-align: center;
+    margin-top: 30px;
+  }
+  
+  .footer-links {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+  }
+  
+  .footer-links li {
+    display: inline-block;
+    margin-right: 10px;
+  }
+
+.col-md-5{
+    color: #f1f6f9;
+}
+
+.event{
+    max-width: 72%;
+    margin-left: 25px;
+    font-size: 20px;
+}
+
+.news{
+    max-width: 72%;
+    margin-left: 25px;
+    font-size: 25px;
+}
+
+.judul10a{
+    font-size: 65px;
+}
+
+.gamevtut{
+    background: #76797b1b;
+    color: #364b54;
+    margin-left: -25px;
+    margin-right: 25px;
+}
+
+.gamevtut2{
+    background: #4687ad78;
+    color: #364b54;
+    margin-right: 25px;
+}
+
+.bg11{
+    color: #4687ad;
+    
+}
+
+.bg11:hover{
+    color: #771818;
+}
+
+.gam11{
+    filter: contrast(0.7);
+    padding-right: 14px;
+}
+
+h9{
+    font-size: 18px;
+    font-weight: bold;
+}
+
+.tamevt{
+    margin-top: -1000px;
+    max-width: 38%;
+    margin-right: 35px;
+    font-size: 15px;
+    margin-left: 75%;
+}
+
+.tamevt1{
+    margin-top: -1575px;
+    max-width: 38%;
+    margin-right: 35px;
+    font-size: 15px;
+    margin-left: 75%;
+}
+
+.tamevt2{
+    margin-top: -800px;
+    max-width: 38%;
+    margin-right: 35px;
+    font-size: 15px;
+    margin-left: 75%;
+}
+
+.tamevt3{
+    margin-top: -500px;
+    max-width: 38%;
+    margin-right: 35px;
+    font-size: 15px;
+    margin-left: 75%;
+}
+
+.evtam{
+    margin-left: 15px;
+}
+.lievtam{
+    color: #3e66b5;
+}
+
+.lievtam:hover{
+    color: black;
+}
+
+.submitevent{
+    background: #5c626b25;
+    margin-right: -35px;
+}
+
+.h310{
+    margin: 15px;
+}
+
+a.tbl-submit{
+    background: #771818;
+    border-radius: 5px;
+    margin-top: 20px;
+    padding: 15px 20px 15px 20px;
+    color: #f1f6f9;
+    cursor: pointer;
+}
+
+
+a.tbl-submit:hover{
+    background: #3e66b5;
+    text-decoration: none;
+}
+
+.tbl-submit{
+    margin-left: 25px;
+}
+
+.gamlink2{
+    width: 100%;
+}
+
+.ytlink{
+    margin: 20px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+

@@ -1,0 +1,242 @@
+body{
+    background-color: #f1efe6;
+}
+.wrapper {
+    width: 1800px;
+    margin: auto;
+    position: relative;
+}
+
+.logo a{
+    font-size: 25px;
+    font-weight: bold;
+    float: left;
+    font-family:Sans-Serif;
+    color: #bbb;
+    margin-left: 14px;
+}
+
+.menu {
+    float: right;
+    font-family: Sans-Serif;
+}
+
+nav {
+    width: 100%;
+    margin: auto;
+    display: flex;
+    line-height: 80px;
+    position: sticky;
+    position: -webkit-sticky;
+    top: 0;
+    background: #14274E;
+    z-index: 1;
+}
+
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+}
+
+nav ul li {
+    float: left;
+}
+
+nav ul li a {
+    color: #bbb;
+    font-weight: bold;
+    text-align: center;
+    padding: 0px 16px 0px 16px;
+    text-decoration: none;
+}
+
+a.tbl-biru{
+    background: #bbb;
+    border-radius: 20px;
+    margin-top: 20px;
+    padding: 15px 20px 15px 20px;
+    color: #14274E;
+    cursor: pointer;
+}
+
+
+a.tbl-biru:hover{
+    background: #F1F6F9;
+    text-decoration: none;
+}
+
+section{
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+}
+
+.judul{
+    padding-left: 100px;
+    font-size: 50px;
+
+}
+
+.pjlsn{
+    padding-left: 110px;
+    font-size: 20px;
+}
+
+.about1{
+    display: flex;
+    justify-content: space-around;
+}
+
+.card{
+    width: 280px;
+    height: 360px;
+    padding: 2rem 1rem;
+    position: relative;
+    display: flex;
+    align-items: flex-end;
+    box-shadow: 0px 7px 10px rgba(0, 0, 0, 0.5);
+    transition: 0.5s ease-in-out;
+    
+}
+
+.card:hover{
+    transform: translateY(20px);
+}
+
+.card:before{
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    display: block;
+    width: 100%;
+    height: 100%;
+    background: linear-gradient(to bottom, #9ba4b464, #14274ed0);
+    z-index: 2;
+    transition: 0.5s all;
+    opacity: 0;
+}
+
+.card:hover:before{
+    opacity: 1;
+}
+
+.card img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    position: absolute;
+    top: 0;
+    left: 0;
+    
+}
+
+.card .info{
+    position: relative;
+    z-index: 3;
+    color: #fff;
+    opacity: 0;
+    transform: translateY(30px);
+    transition: 0.5s all;
+}
+
+.card:hover .info{
+    opacity: 1;
+    transform: translateY(0px);
+}
+
+.card .info h1{
+    margin: 0;
+}
+
+.card .info p{
+    letter-spacing: 1px;
+    font-size: 15px;
+    margin-top: 8px;
+    margin-bottom: 20px;
+}
+
+.card .info .btn{
+    text-decoration: none;
+    padding: 0.5rem 1rem;
+    background: #fff;
+    color: #000;
+    font-size: 14px;
+    cursor: pointer;
+    transition: 0.4s ease-in-out;
+}
+
+.nwslide{
+    max-width: 2200px;
+    position: relative;
+}
+
+.nwslide i{
+    top: 50%;
+    width: 46px;
+    height: 46px;
+    cursor: pointer;
+    position: absolute;
+    font-size: 1.2rem;
+    text-align: center;
+    line-height: 46px;
+    background: #14274E;
+    border-radius: 50%;
+    transform: translateY(-50%);
+    color: #9BA4B4;
+}
+
+
+.nwslide i:first-child{
+    left: 23px;
+}
+
+.nwslide i:last-child{
+    right: 23px;
+}
+
+.nwslide .carouse1{
+    white-space: nowrap;
+    font-size: 0px;
+    cursor: pointer;
+    overflow: hidden;
+}
+
+.carouse1 img{
+    height: 340px;
+    object-fit: cover;
+    width: calc(100% / 5);
+    margin-left: 14px;
+}
+
+.carouse1 img:first-child{
+    margin-left: 0px;
+}
+
+.kepala1{
+    padding: 0 10px;
+}
+
+.kepala{
+    display: flex;
+    padding: 0 35px;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+    margin :0px
+}
+
+@media screen and (max-width: 900px) {
+    .carouse1 img{
+        width: calc(100% / 2);
+    }
+}
+
+@media screen and (max-width: 550px) {
+    .carouse1 img{
+        width: 100%;
+    }
+}
+
